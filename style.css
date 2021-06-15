@@ -77,8 +77,40 @@ color: #ad3a3c;
 
 }
 
-.table1 {
-  display: block;
-  text-align: center;
 
+.kids-course li{
+  display: inline-block;
+  padding: 20px;
+  margin: 10px;
+}
+
+.kids-course #img1{
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.kids-course #img1 h3{
+  text-align: center;
+  color: #ad3a3c;
+  font-family: 'Oswald', sans-serif;
+}
+
+.kids-course #img2{
+  text-decoration: none;
+}
+
+.kids-course #img2 h3{
+  text-align: center;
+  color: #ad3a3c;
+  font-family: 'Oswald', sans-serif;
+}
+
+.kids-course #img3{
+  text-decoration: none;
+}
+
+.kids-course #img3 h3{
+  text-align: center;
+  color: #ad3a3c;
+  font-family: 'Oswald', sans-serif;
 }
