@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&family=Hammersmith+One&family=Libre+Franklin:wght@500&family=Noto+Serif:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap');
 
 html, body{
   margin: 0;
@@ -9,15 +8,14 @@ nav{
   display: block;
   background-color: #cee5d0;
   padding: 12px;
-
 }
 
 nav a{
   color: #ad3a3c;
-  font-family: 'Noto Serif', serif;
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
   font-size: 28px;
   text-decoration: none;
-
 }
 
 .basic img{
@@ -27,7 +25,6 @@ nav a{
   margin-right: auto;
   width: 1100px;
   height: 500px;
-
 }
 
 .basic{
@@ -40,20 +37,20 @@ nav a{
     left: 159px;
     top: 217px;
     background-color: #cee5d09c;
-    color: #ad3a3c; /* #ca8a8b;*/
+    color: #ad3a3c;
     text-align: center;
     text-transform: uppercase;
-    padding: 26px 50px 131px 50px;
-    font-family: 'Noto Serif', serif;
+    padding: 20px 50px 150px 50px;
+    font-family: 'Noto Serif JP', serif;
     font-size: 45px;
-
+    font-weight: bold;
 }
 
 .paragraph h2{
 text-align: center;
 font-size: 55px;
 color: black;
-font-family: 'Noto Serif', serif;
+font-family: 'Noto Serif JP', serif;
 color: #ad3a3c;
 }
 
@@ -63,18 +60,19 @@ color: #ad3a3c;
   padding-left: 200px;
   padding-right: 200px;
   font-size: 25px;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Noto Serif JP', serif;
 }
 
-.images h4{
+
+.subtitle-one h4{
   text-align: center;
   color: #ad3a3c;
+  font-family: 'Noto Serif JP', serif;
   font-size: 35px;
   background-color: #cee5d09c;
   padding: 10px 15px 10px 15px;
   margin-left: 500px;
   margin-right: 500px;
-
 }
 
 
@@ -92,17 +90,21 @@ color: #ad3a3c;
 .kids-course #img1 h3{
   text-align: center;
   color: #ad3a3c;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 25px;
 }
+
 
 .kids-course #img2{
   text-decoration: none;
 }
 
+
 .kids-course #img2 h3{
   text-align: center;
   color: #ad3a3c;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 25px;
 }
 
 .kids-course #img3{
@@ -112,5 +114,148 @@ color: #ad3a3c;
 .kids-course #img3 h3{
   text-align: center;
   color: #ad3a3c;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 25px;
+}
+
+.kids-course button{
+  background-color: #cee5d09c;
+  color: #ad3a3c;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.subtitle-two h4{
+  text-align: center;
+  color: #ad3a3c;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 35px;
+  background-color: #cee5d09c;
+  padding: 10px 15px 10px 15px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.adults-course li{
+  display: inline-block;
+  padding: 20px;
+  margin: 10px;
+}
+
+.adults-course #img1{
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.adults-course #img1 h3{
+  text-align: center;
+  color: #ad3a3c;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 25px;
+}
+
+
+.adults-course #img2{
+  text-decoration: none;
+}
+
+.adults-course #img2 h3{
+  text-align: center;
+  color: #ad3a3c;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 25px;
+}
+
+.adults-course #img3{
+  text-decoration: none;
+}
+
+.adults-course #img3 h3{
+  text-align: center;
+  color: #ad3a3c;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 25px;
+}
+
+.adults-course button{
+  background-color: #cee5d09c;
+  color: #ad3a3c;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact h4{
+  color: #ad3a3c;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 35px;
+}
+
+input[type=text]{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+label{
+  color: #ad3a3c;
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+input #name #email{
+  border: 1px solid #cee5d09c;
+}
+
+
+textarea{
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    resize: none;
+}
+
+input[type=submit]{
+  width: 15%;
+  background-color: #cee5d09c;
+  color: #ad3a3c;
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 14px 20px;
+  margin: 8px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+footer{
+  display: block;
+  padding: 12px;
+  color: #ad3a3c;
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  background-color: #cee5d0;
+  text-align: center;
 }
